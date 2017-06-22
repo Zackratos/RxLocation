@@ -5,3 +5,7 @@
 
 1.添加依赖：
 
+```xml
+compile 'org.zackratos:xmaplocation:1.0.0'
+```
+

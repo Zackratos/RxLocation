@@ -21,7 +21,7 @@
         </activity>
 
 
-        <meta-data android:name="com.amap.api.v2.apikey" android:value="4ddf0aa2e970544339b">
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="您的key">
         </meta-data>
 
 

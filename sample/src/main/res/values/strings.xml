@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">AMapLocationUtil</string>
+    <string name="app_name">XMapLocationSample</string>
     <string name="action_settings">Settings</string>
 </resources>
