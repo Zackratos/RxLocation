@@ -6,11 +6,15 @@
 1.添加依赖：
 
 ```xml
-compile 'org.zackratos:xmaplocation:1.0.1'
+compile 'org.zackratos:xmaplocation:1.0.2'
 ```
 
 
 ## 更新日志
+
+### v1.0.2
+
+1.增加开启获取最近3s内精度最高的一次定位结果功能，默认为关闭。
 
 ### v1.0.1
 

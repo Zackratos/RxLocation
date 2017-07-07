@@ -42,7 +42,7 @@ public class XMapLocation {
         option.setWifiScan(builder.wifiScan);
         option.setHttpTimeOut(builder.timeout);
         option.setLocationCacheEnable(builder.cache);
-        option.setOnceLocationLatest(true);
+        option.setOnceLocationLatest(builder.onceLocationLatest);
 
 
         client.setLocationOption(option);
@@ -88,7 +88,7 @@ public class XMapLocation {
 
         private LocationMode mode;
 //        private boolean onceLocation;
-//        private boolean onceLocationLatest;
+        private boolean onceLocationLatest;
 //        private long interval;
         private boolean needAddress;
         private boolean wifiScan;
@@ -104,6 +104,7 @@ public class XMapLocation {
             mode = LocationMode.Height_Accuracy;
             needAddress = true;
             wifiScan = true;
+            onceLocationLatest = false;
             timeout = 20000;
             mockEnable = false;
             cache = true;
@@ -112,6 +113,11 @@ public class XMapLocation {
 
         public Builder locationMode(LocationMode mode) {
             this.mode = mode;
+            return this;
+        }
+
+        public Builder onceLocationlatest(boolean onceLocationLatest) {
+            this.onceLocationLatest = onceLocationLatest;
             return this;
         }
 
