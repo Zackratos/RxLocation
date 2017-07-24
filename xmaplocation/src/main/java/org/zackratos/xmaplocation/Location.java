@@ -103,7 +103,8 @@ public class Location implements Parcelable {
         this.cityCode = location.getCityCode();
         this.adCode = location.getAdCode();
         this.poiName = location.getPoiName();
-        this.adCode = location.getAdCode();
+//        this.adCode = location.getAdCode();
+        this.aoiName = location.getAoiName();
         this.gpsStatus = location.getGpsAccuracyStatus();
 
     }

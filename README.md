@@ -6,11 +6,14 @@
 1.添加依赖：
 
 ```xml
-compile 'org.zackratos:xmaplocation:1.0.2'
+compile 'org.zackratos:xmaplocation:1.0.3'
 ```
 
 
 ## 更新日志
+
+### v1.0.3
+1、修复获取定位结果的 aoi 名称为空的 bug。
 
 ### v1.0.2
 
