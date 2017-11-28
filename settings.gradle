@@ -1,1 +1,1 @@
-include ':sample', ':xmaplocation'
+include ':sample', ':xlocation'
