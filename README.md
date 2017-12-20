@@ -1,5 +1,5 @@
-# XMapLocation
-高德地图定位的封装，一行代码完成定位
+# RxLocation
+基于 RxJava 封装的高德地图定位
 
 ## 使用方法
 
